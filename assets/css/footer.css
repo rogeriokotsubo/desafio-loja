@@ -1,0 +1,142 @@
+footer{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 8vh 0 3vh 0;
+}
+
+.ctn-footer{
+  background-color:#2a6049;
+  width: 85vw;
+  height: 42vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.ctn-loja-email{
+  background-color:#2a6049;
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-loja{
+  width: 15vw;
+}
+
+.p-footer{
+  font-family: Roboto flex, Arial, sans-serif;
+  color: #fbf9f1;
+  font-size: 1.0vw;
+  font-weight: 200;
+  letter-spacing: 0.05vw;
+  padding: 0.5vh 0;
+}
+.ul-footer{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.a-footer{
+  font-family: Roboto flex, Arial, sans-serif;
+  color: #fbf9f1;
+  font-size: 1.0vw;
+  font-weight: 200;
+  letter-spacing: 0.05vw;
+  text-decoration: none;
+  padding: 0.5vh 0;
+}
+.info-endereco{
+  width: 20vw;
+}
+.info-horario{
+  width: 15vw;
+}
+.info-contato{
+   width: 20vw; 
+}
+
+.input-email{
+  font-family: Roboto flex, Arial, sans-serif;
+  background-color: #2a6049;
+  width: 20vw;
+  height: 5vh;
+  font-size: 1.8vh;
+  font-weight: 200;
+  border: solid 1px #ffffff;
+  padding: 0.3px 3px 3px 21px;
+  box-shadow: 0 0 0 0;
+}
+.input-email:focus{
+    box-shadow: 0 0 0 0;
+    border: solid 3px #ffffff;
+    font-size: 1.8vh;
+    outline: 0;
+} 
+
+#btn-email{
+  text-decoration: none;
+}
+#ctn-btn-email{
+  padding-top: 0.8vh;
+}
+#divlink-email{
+  font-family: Roboto flex, Arial, sans-serif;
+  background-color: #fbf9f1;
+  width: 20vw;
+  height: 5vh;
+  color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vw;
+  font-weight: 200;
+  border: solid 1px #2a6049;
+}
+#divlink-email:hover{
+  background-color: #2a6049;
+  color: #fbf9f1;
+  border: solid 1px #fbf9f1;
+}
+
+.ctn-copy-medias{
+  background-color:#2a6049;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  height: 17vh;
+}
+
+.ctn-copywrite{
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+}
+.txt-copywrite{
+  width: 57vw;
+}
+
+#social-media-icons{
+  list-style-type: none;
+  display: flex;
+  gap: 2vw;
+}
+.img-med{
+  width: 1.8vw;
+}
+#minimized-chat{
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 96, 73); 
+  border-radius: 0px;
+  border: none;
+  height: 80px;
+  width: 80px;
+  box-shadow: 0 0 3px 0 hsl(0deg 1% 71% / 50%);
+  cursor: pointer;
+  position: fixed; 
+  bottom: 23px;
+  right: 28px;
+}
+

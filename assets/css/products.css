@@ -1,0 +1,204 @@
+.ctn-ofertas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+.h2-oferta{
+  padding-top: 10vh;
+  color: #2a6049;
+  letter-spacing: 0.05em;
+  font-size: 2.5vw;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.p-oferta{
+  padding: 3vh 0 7vh 0;
+  color: #191919;
+  font-weight: 300;
+  font-size: 1.2vw;
+  font-family: Roboto flex, Arial, sans-serif; 
+}
+.ctn-prod{
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 65vh;
+  background-color: #ffffff;
+}
+.ctn-card-prod{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width:20vw;
+  gap: 2vh;
+}
+.prod-link{
+  text-decoration: none;
+  font-family: Roboto flex, Arial, sans-serif;
+}
+.ctn-img-prod{
+  width:20vw; 
+  height:30vh;
+  position: relative;  
+  display: inline-block; 
+ }
+.img-prod{
+  width:20vw;
+  height:30vh;
+  color: #ffffff;
+  font-weight: 200;
+  object-fit: contain;
+  overflow: hidden;
+  z-index: -1;
+}
+.preco-especial{
+  font-family: Roboto flex, Arial, sans-serif; 
+  background-color: #2A6049;
+  border-color: #2A6049;
+  padding: 2px 12px;
+  color: #ffffff;
+  font-size: 1.1vw;
+  font-weight: 200;
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+.txt-prod{
+  font-family: Roboto flex, Arial, sans-serif; 
+  font-size: 2.2vh;
+  font-weight: 200;
+  letter-spacing: 0.1vw
+}
+.ctn-preco{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1.5vh;
+}
+.ctn-separador{
+  height: 1 px;
+  width: 2vw;
+  padding: 0;
+  border: 0 solid; 
+  border-bottom-width: 1px
+}
+.preco-anterior{
+  font-family: Roboto flex, Arial, sans-serif; 
+  font-size: 1.8vh;
+  font-weight: 200;
+  letter-spacing: 0.1vw;
+  text-decoration: line-through;
+  width: 8vw;
+}
+.preco-atual{
+  font-family: Roboto flex, Arial, sans-serif; 
+  font-size: 1.8vh;
+  font-weight: 200;
+  padding-left: 2vw;
+}
+.preco-atual1{
+  font-family: Roboto flex, Arial, sans-serif; 
+  font-size: 1.8vh;
+  font-weight: 200;
+}
+.ctn-qtde{
+  padding: 1.5vh 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid;
+}
+.btn-menos{
+  border: none;
+  background-color: transparent;
+  padding-left: 1vw;
+}
+.s3Ki0U{
+  fill: #808080;
+}
+.btn-menos:hover{
+  cursor: pointer;
+}
+.btn-mais{
+  border: none;
+  background-color: transparent;
+  padding-right: 1vw;
+}
+.btn-mais:hover{
+  cursor: pointer;
+}
+.txt-qtde{
+  font-family: Roboto flex, Arial, sans-serif; 
+  font-size: 2.2h;
+  font-weight: 200;
+}
+.ctn-add-cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6vh;
+  border: 1px solid;
+}
+.btn-add-cart{
+  border: none;
+  background-color: transparent; 
+  cursor: pointer;
+}
+.add-cart{
+  font-family: Roboto flex, Arial, sans-serif; 
+  font-size: 2vh;
+  font-weight: 300;
+}
+
+.ctn-separador2{
+  height: 10 vh;
+  width: 100%;
+  padding: 0;
+  border: 0 solid; 
+  border-color: #191919;
+  border-bottom-width: 1px
+}
+
+.ctn-icones{
+  padding-top: 10vh;
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  background-color: #fbf9f1;
+  justify-content: center;
+  gap: 2vw;
+}
+.cnt-retirar{
+  display: flex;
+  width: 25vw;
+  padding: 0 1vw;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+.h2-icones{
+  color: #2a6049;
+  font-size: 1.6vw;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.p-icones{
+  font-family: Roboto flex, Arial, sans-serif; 
+  font-size: 1.6vh;
+  font-weight: 300;
+  text-align: center;
+}
+.ctn-separador3{
+  border: 0 solid; 
+  border-color: rgb(128,128,128);
+  border-left-width: 3px;
+  width: 5px;
+  height: 25vh;
+  top: 120px;
+  padding: 0;
+}
