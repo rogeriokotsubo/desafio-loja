@@ -19,7 +19,7 @@
 
 <body>
   <!-- Navbar -->
-  <main id="page1">
+  <header>
     <nav id="navbar">
       <div id="ctn-cesta-svg">
       <a href="/index.html" target="_self">
@@ -56,16 +56,16 @@
         </a>
       </div>
     </nav>  
+  </header>
 
-      <section id="container-main">
+  <main id="page1">
+    <section id="container-main">
       <article id="container-image"> 
         <div id="ctn-img">
           <div id="txt1-main-img"> 
             <p>MERCADO CORREIO</p>
           </div>
-          <div id="txt2-main-img"> 
-            <p>O MERCADO QUE ENTREGA DIRETO NA SUA CASA</p>
-          </div>
+          <p id="txt2-main-img">O MERCADO QUE ENTREGA DIRETO NA SUA CASA</p>
           <div id="ctn-btn">
             <a id="btn-online" href="/index.html" target="_self">
               <div id="divlink">
@@ -87,7 +87,7 @@
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
             <span class="preco-especial">Preço Especial</span>
-            <img class="img-prod" src="./assets/img/ovos.webp">
+            <img class="img-prod" src="./assets/img/ovos.webp" alt="Ovos">
           </div>
         </a>
         <div class="ctn-preco">
@@ -124,7 +124,7 @@
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
             <span class="preco-especial">Preço Especial</span>
-            <img class="img-prod" src="./assets/img/papel.webp">
+            <img class="img-prod" src="./assets/img/papel.webp" alt="Papel Higiênico">
           </div>
         </a>
         <div class="ctn-preco">
@@ -160,7 +160,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/tomate.webp">
+            <img class="img-prod" src="./assets/img/tomate.webp"  alt="Tomate holandês">
             <span class="preco-especial">Preço Especial</span>
           </div>
         </a>
@@ -197,7 +197,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/queijo.webp">
+            <img class="img-prod" src="./assets/img/queijo.webp"  alt="Queijo prato">
             <span class="preco-especial">Preço Especial</span>
           </div>
         </a>
@@ -245,7 +245,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/queijo-branco.webp">
+            <img class="img-prod" src="./assets/img/queijo-branco.webp" alt="Queijo minas frescal">
           </div>
         </a>
         <div class="ctn-preco">
@@ -280,7 +280,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/pera.webp">
+            <img class="img-prod" src="./assets/img/pera.webp"  alt="Pera">
           </div>
         </a>
         <div class="ctn-preco">
@@ -315,7 +315,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/leite.webp">
+            <img class="img-prod" src="./assets/img/leite.webp"  alt="Leite tipo A">
           </div>
         </a>
         <div class="ctn-preco">
@@ -350,7 +350,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/bananas.webp">
+            <img class="img-prod" src="./assets/img/bananas.webp"  alt="Banana">
           </div>
         </a>
         <div class="ctn-preco">
@@ -391,7 +391,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/ovos.webp">
+            <img class="img-prod" src="./assets/img/ovos.webp"  alt="Ovos">
             <span class="preco-especial">Preço Especial</span>
           </div>
         </a>
@@ -428,7 +428,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/pao.webp">
+            <img class="img-prod" src="./assets/img/pao.webp"  alt="Pão 7 grãos">
           </div>
         </a>
         <div class="ctn-preco">
@@ -463,7 +463,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/arroz.webp">
+            <img class="img-prod" src="./assets/img/arroz.webp"  alt="Arroz">
           </div>
         </a>
         <div class="ctn-preco">
@@ -498,7 +498,7 @@
       <div class="ctn-card-prod">
         <a class="prod-link" href="#">
           <div class="ctn-img-prod">
-            <img class="img-prod" src="./assets/img/batata.webp">
+            <img class="img-prod" src="./assets/img/batata.webp"  alt="Batata">
           </div>
         </a>
         <div class="ctn-preco">
@@ -633,7 +633,7 @@
     </footer>   
 
     <button id="minimized-chat" >
-      <svg width="32" height="32" viewBox="0 0 32 32" style="border-radius: 0px; fill: rgb(255, 255, 255); width: 32px; height: 32px; flex-shrink: 0;">
+      <svg width="32" height="32" viewBox="0 0 32 32">
        <path d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0 010-2.318h9.016a1.16 1.16 0 110 2.318z"></path>
       </svg>
     </button>

@@ -166,17 +166,17 @@
 
 .ctn-icones{
   padding-top: 10vh;
-  display: flex;
   width: 100%;
   height: 40vh;
   background-color: #fbf9f1;
+  display: flex;
   justify-content: center;
   gap: 2vw;
 }
 .cnt-retirar{
-  display: flex;
   width: 25vw;
   padding: 0 1vw;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2vh;
