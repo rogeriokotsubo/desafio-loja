@@ -137,8 +137,8 @@ footer{
   width: 1.8vw;
 }
 #minimized-chat{
-  color: rgb(255, 255, 255);
-  background-color: rgb(42, 96, 73); 
+  color: #ffffff;
+  background-color: #2a6049; 
   border-radius: 0px;
   border: none;
   height: 80px;
