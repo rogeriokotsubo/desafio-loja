@@ -117,7 +117,14 @@ footer{
 .txt-copywrite{
   width: 57vw;
 }
-
+.a-footer-copy{
+  font-family: Roboto flex, Arial, sans-serif;
+  color: #fbf9f1;
+  font-size: 1.0vw;
+  font-weight: 200;
+  letter-spacing: 0.05vw;
+  padding: 0.5vh 0;
+}
 #social-media-icons{
   list-style-type: none;
   display: flex;
